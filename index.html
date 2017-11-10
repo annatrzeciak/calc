@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Kalkulator JS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="../prefixfree.min.js"></script>
+
+    <script src="calculator.js"></script>
+
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="calculator">
+            <div id="window">
+                <div id="dataWindow"></div>
+                <div id="scoreWindow">0</div>
+            </div>
+            <div class="calculatorButtons">
+                <div class="button" onclick="deleteLast()">CE</div>
+                <div class="button" onclick="clearAll()">C</div>
+                <div class="button" onclick="operation1Var('√')">√</div>
+                <div class="button" onclick="operation2Var('^')">^</div>
+                <div class="button" onclick="operation1Var('1/')">1/x</div>
+                <div class="button" onclick="number('7')">7</div>
+                <div class="button" onclick="number('8')">8</div>
+                <div class="button" onclick="number('9')">9</div>
+                <div class="button" onclick="operation2Var('/')">&#8260;</div>
+                <div class="button" onclick="operation1Var('%')">%</div>
+                <div class="button" onclick="number('4')">4</div>
+                <div class="button" onclick="number('5')">5</div>
+                <div class="button" onclick="number('6')">6</div>
+                <div class="button" onclick="operation2Var('*')">*</div>
+                <div class="button" onclick="oppositeSign()">+/-</div>
+                <div class="button" onclick="number('1')">1</div>
+                <div class="button" onclick="number('2')">2</div>
+                <div class="button" onclick="number('3')">3</div>
+                <div class="button" onclick="operation2Var('-')">-</div>
+                <div class="button button0" onclick="number('0')">0</div>
+                <div class="button" onclick="number('.')">,</div>
+                <div class="button" onclick="operation2Var('+')">+</div>
+                <div class="buttonSign" onclick="countScore()">=</div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+#window {
+    width: 100%;
+    height: 100px;
+    border: 2px solid #656363;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background: #656363;
+    color: white;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#calculator {
+font-family: 'Nunito', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 310px;
+    padding: 20px;
+}
+
+#dataWindow{
+    padding: 10px;
+    height: 18px;
+    font-size: 18px;
+    text-align: right;
+}
+#scoreWindow{
+    font-weight: bold;
+     padding: 10px;
+    height: 22px;
+    font-size: 22px;
+    text-align: right
+
+    
+}
+.calculatorButtons {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.button,
+.buttonSign {
+    border-radius: 3px;
+    margin: 4px;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid #a8a8a8;
+    background: #a8a8a8;
+    width: 50px;
+    height: 50px;
+    color: #2a2929;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover,
+.buttonSign:hover {
+    background: #797979;
+    border: 2px solid #797979;
+}
+
+.button:active {
+    position: relative;
+    top: +3px;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.button0 {
+    width: 112px;
+}
+
+.buttonSign {
+    position: relative;
+    bottom: 62px;
+    line-height: 112px;
+    height: 112px;
+    font-weight: bold;
+}
+
+.buttonSign:active {
+    position: relative;
+    bottom: 59px;
+    box-shadow: 0px 0px 0px 0px;
+}
+
